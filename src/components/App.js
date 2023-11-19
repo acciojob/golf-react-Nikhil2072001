@@ -12,7 +12,7 @@ class App extends Component {
         this.renderChoice = this.renderBallOrButton.bind(this)
         this.buttonClickHandler = this.buttonClickHandler.bind(this)
     };
-
+ 
     buttonClickHandler() {
    
    }
@@ -30,6 +30,7 @@ class App extends Component {
     }
 
     render() {
+        console.log(">>>>")
         return (
             <div className="playground">
                 {this.renderBallOrButton()}
